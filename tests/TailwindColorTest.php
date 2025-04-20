@@ -1,8 +1,8 @@
 <?php
 
-namespace andrewskm\TailwindColors\Test;
+namespace Andrewskm\TailwindColors\Test;
 
-use andrewskm\TailwindColors\TailwindColor;
+use Andrewskm\TailwindColors\TailwindColor;
 use PHPUnit\Framework\TestCase;
 
 class TailwindColorTest extends TestCase

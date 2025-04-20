@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "andrewskm\\TailwindColors\\": "src/"
+            "Andrewskm\\TailwindColors\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "andrewskm\\TailwindColors\\Test\\": "tests"
+            "Andrewskm\\TailwindColors\\Test\\": "tests"
         }
     },
     "scripts": {

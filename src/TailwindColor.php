@@ -1,6 +1,6 @@
 <?php
 
-namespace andrewskm\TailwindColors;
+namespace Andrewskm\TailwindColors;
 
 enum TailwindColor: string
 {
