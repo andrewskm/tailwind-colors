@@ -1,2 +1,37 @@
 {
+    "name": "andrewskm/tailwind-colors",
+    "description": "List color names from tailwindcss.",
+    "type": "library",
+    "homepage": "https://github.com/andrewskm/tailwind-colors",
+    "version": "0.1.0",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Keith Andrews",
+            "email": "keith@geerservices.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": ">=9.6.0"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "andrewskm\\TailwindColors\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "andrewskm\\TailwindColors\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
 }

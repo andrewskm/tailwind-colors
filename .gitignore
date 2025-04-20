@@ -1,18 +1,34 @@
-/node_modules
+# Composer Related
+composer.lock
 /vendor
-.env
-.env.backup
-.phpunit.result.cache
-.phpunit.xml
-docker-compose.override.yml
+
+# Frontend Assets
+/node_modules
+
+# Logs
 npm-debug.log
 yarn-error.log
+
+# Caches
+.phpunit.cache
+.phpunit.result.cache
+/build
+
+# Editors
 /.idea
+/.fleet
 /.vscode
 
-/.phpstorm.meta.php
-.phpstorm.meta.php
-.phpunit.*
-_ide_helper.php
-/_ide_helper.php
-*.patch
+# Code sniffer
+.php_cs
+.php_cs.cache
+.php-cs-fixer.cache
+
+# Misc
+phpunit.xml
+phpstan.neon
+psalm.xml
+testbench.yaml
+.lando.yml
+/docs
+/coverage
