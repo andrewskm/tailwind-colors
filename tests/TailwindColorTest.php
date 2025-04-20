@@ -11,7 +11,7 @@ class TailwindColorTest extends TestCase
     {
         $cases = TailwindColor::cases();
         $key   = array_rand(TailwindColor::cases());
-        $test  = $cases[$key];
+        $test  = $cases[$key] ?? null;
 
         $this->assertTrue($test instanceof TailwindColor);
         $this->assertEquals(sprintf('bg-%s-300', $test->name), $test->build('bg', 300));
