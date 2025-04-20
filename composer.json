@@ -3,7 +3,6 @@
     "description": "List color names from tailwindcss.",
     "type": "library",
     "homepage": "https://github.com/andrewskm/tailwind-colors",
-    "version": "0.1.0",
     "license": "MIT",
     "authors": [
         {
