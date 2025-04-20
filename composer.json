@@ -7,8 +7,7 @@
     "authors": [
         {
             "name": "Keith Andrews",
-            "email": "keith@geerservices.com",
-            "role": "Developer"
+            "email": "keith@geerservices.com"
         }
     ],
     "require": {
