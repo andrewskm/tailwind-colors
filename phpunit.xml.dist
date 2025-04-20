@@ -12,7 +12,7 @@
          failOnRisky="true"
          failOnWarning="true">
     <testsuites>
-        <testsuite name="default">
+        <testsuite name="Tailwind Color Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
