@@ -1,8 +1,8 @@
 <?php
 
-namespace Andrewskm\TailwindColors;
+namespace Andrewskm\UtilityColors;
 
-enum TailwindColor: string
+enum UtilityColor: string
 {
     case slate = 'Slate';
     case gray = 'Gray';
@@ -28,7 +28,7 @@ enum TailwindColor: string
     case rose = 'Rose';
 
     /**
-     * Build a tailwind class
+     * Build a utility class.
      *
      * @param  string  $utility
      * @param  int     $shade

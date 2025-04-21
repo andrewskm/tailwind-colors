@@ -1,8 +1,8 @@
 {
-    "name": "andrewskm/tailwind-colors",
-    "description": "List color names from tailwindcss.",
+    "name": "andrewskm/utility-colors",
+    "description": "List of color names for utility class generation.",
     "type": "library",
-    "homepage": "https://github.com/andrewskm/tailwind-colors",
+    "homepage": "https://github.com/andrewskm/utility-colors",
     "license": "MIT",
     "authors": [
         {
@@ -23,12 +23,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Andrewskm\\TailwindColors\\": "src/"
+            "Andrewskm\\UtilityColors\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Andrewskm\\TailwindColors\\Test\\": "tests"
+            "Andrewskm\\UtilityColors\\Test\\": "tests"
         }
     },
     "scripts": {
