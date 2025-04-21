@@ -3,11 +3,13 @@
 namespace Andrewskm\UtilityColors\Test;
 
 use Andrewskm\UtilityColors\UtilityColor;
+use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
 class UtilityColorTest extends TestCase
 {
-    public function test_it_builds_a_utility_class(): void
+    #[Test]
+    public function it_builds_a_utility_class(): void
     {
         $cases = UtilityColor::cases();
         $key   = array_rand(UtilityColor::cases());
