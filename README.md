@@ -1,6 +1,8 @@
 # Utility Colors
 
 [![CI](https://github.com/andrewskm/utility-colors/actions/workflows/ci.yml/badge.svg)](https://github.com/andrewskm/utility-colors/actions/workflows/ci.yml?query=branch%3Amain)
+[![Latest Stable Version](https://poser.pugx.org/andrewskm/utility-colors/v/stable)](https://packagist.org/packages/andrewskm/utility-colors)
+[![License](https://poser.pugx.org/andrewskm/utility-colors/license)](https://github.com/andrewskm/utility-colors/blob/main/LICENSE)
 
 A basic package that lists color names and allows the building of utility classes in PHP.
 
